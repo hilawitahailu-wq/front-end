@@ -6,19 +6,19 @@ function Projects() {
     {
       title: "Portfolio Website",
       description: "Personal portfolio built using React.",
-      github: "https://github.com/yourname/portfolio",
+      github: "https://github.com/hilawitahailu-wq/my-app",
       demo: "#",
     },
     {
       title: "digital menu",
       description: "simple cafe menu by html and css.",
-      github: "https://github.com/yourname/counter-app",
+      github: "https://github.com/hilawitahailu-wq/mk-digital-menu",
       demo: "#",
     },
     {
       title: "Gym website",
       description: "designed to represent afitness center.",
-      github: "https://github.com/yourname/greeting-app",
+      github: "https://github.com/hilawitahailu-wq/react-app",
       demo: "#",
     },
   ];
