@@ -2,6 +2,7 @@
 import React from "react";
 
 import "./About.css";
+import cvFile from "../assets/cv2.pdf";
 
 
 const About = () => {
@@ -45,8 +46,7 @@ const About = () => {
            
           </div>
 
-          <a href="
-          /cv2.pdf" className="btn" download>
+          <a href={cvFile} className="btn" download>
             Download CV
           </a>
         </div>                                                     

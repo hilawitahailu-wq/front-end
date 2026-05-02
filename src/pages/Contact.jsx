@@ -12,6 +12,8 @@ function Contact() {
   const [success, setSuccess] = useState("");
   const [loading, setLoading] = useState(false);
 
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "https://back-end-7kbp.vercel.app";
+
   // 🔹 Handle Input Change
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -48,7 +50,7 @@ function Contact() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:5000/contact", {
+      const res = await fetch(`${BACKEND_URL}/contact`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
