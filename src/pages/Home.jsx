@@ -5,7 +5,7 @@ import profile1 from "../assets/profile1.jpg";
 
 const Home = () => {
   return (
-    <section className="home">
+    <section className="home" id="home">
       <div className="home-overlay"></div>
 
       <div className="home-content">

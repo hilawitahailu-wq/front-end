@@ -12,7 +12,7 @@ function Skill() {
   ];
 
   return (
-    <section className="skill" id="skill">
+    <section className="skill" id="skills">
       <h2>My Skills</h2>
 
       <div className="skill-container">

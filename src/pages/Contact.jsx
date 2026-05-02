@@ -76,7 +76,7 @@ function Contact() {
   };
 
   return (
-    <div className="portfolio-contact">
+    <div className="portfolio-contact" id="contact">
       <h2>Contact Me</h2>
 
       <div className="contact-flex">
